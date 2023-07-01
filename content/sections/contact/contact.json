@@ -1,10 +1,10 @@
 {
   "name": "Contact me at:",
   "email": "david@davidryan.info",
-  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "description": "If you would like to contact me",
   "image": {
     "src": "../../images/favicon.png",
-    "alt": "Gatsby Logo"
+    "alt": "D logo"
   },
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],
