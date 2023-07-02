@@ -6,8 +6,8 @@
     "titleTemplate": "%s · Portfolio",
     "description": "A Portfolio for David Ryan",
     "author": "David Ryan",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "avatar": "../content/images/headshot.jpg",
+    "bio": "Passionate about the world where Software and Hardware collide!",
     "social": {
       "github": "https://github.com/dj-ryan",
       "medium": "https://anavid7.medium.com",
@@ -20,9 +20,9 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/#blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Blog", "url": "/blog" },
+        { "label": "Projects", "url": "/#features" },
+        { "label": "Contact", "url": "/#github" }
       ],
       "ctaButton": {
         "openNewTab": true,

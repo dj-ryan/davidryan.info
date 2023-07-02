@@ -2,14 +2,14 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "Internship",
+      "title": "ASSET",
+      "description": "A model validation experiment launched into 0g on the Blue origin New Shepard rocket. Flight event based, multi-device, reactive, control system to preform a precise and repeatable collection of data.",
+      "tags": ["Honeybee", "Aerospace"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "src": "../../images/asset_topdown.jpg",
+        "alt": "ASSET top down",
+        "linkTo": "../../articles/project-asset/index.md"
       },
       "links": [
         {
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "visible": true,
+      "visible": false,
       "category": "🧰 EXTENDABLE LAYOUT",
       "title": "Add more sections!",
       "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
@@ -43,6 +43,6 @@
   "button": {
     "visible": true,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": "https://github.com/dj-ryan"
   }
 }
