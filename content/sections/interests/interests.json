@@ -3,14 +3,14 @@
     {
       "label": "C/C++",
       "image": {
-        "src": "../../images/ISO_C++_Logo.svg.png",
+        "src": "../../images/cpp_logo.png",
         "alt": "cpp"
       }
     },
     {
       "label": "Python",
       "image": {
-        "src": "../../images/Python-logo-notext.svg.png",
+        "src": "../../images/python-logo.png",
         "alt": "python"
       }
     },
@@ -24,9 +24,44 @@
     {
         "label": "Robotics",
         "image": {
-          "src": "../../images/robot-logo.png",
+          "src": "../../images/robo-skill.png",
           "alt": "robotics"
         }
+    },
+    {
+      "label": "ROS",
+      "image": {
+        "src": "../../images/ros_logo.png",
+        "alt": "ros"
+      }
+    },
+    {
+      "label": "Rust lang",
+      "image": {
+        "src": "../../images/rustacean-flat-happy.png",
+        "alt": "rust"
+      }
+    },
+    {
+      "label": "Machine Learning",
+      "image": {
+        "src": "../../images/Hey_Machine_Learning_Logo.png",
+        "alt": "machine_learning"
+      }
+    },
+    {
+      "label": "Linux",
+      "image": {
+        "src": "../../images/linux_logo.png",
+        "alt": "linux"
+      }
+    },
+    {
+      "label": "Git",
+      "image": {
+        "src": "../../images/Git-Icon.png",
+        "alt": "git"
+      }
     }
   ],
   "button": {

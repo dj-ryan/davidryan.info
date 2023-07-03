@@ -16,13 +16,17 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "davidryan.info" },
-    "navigation": {
+    "logo": { 
+      "text": "davidryan.info",
+      "image": "",
+      "imageDark": ""
+    },
+      "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Projects", "url": "/#features" },
-        { "label": "Contact", "url": "/#github" }
+        { "label": "Projects", "url": "/#projects" },
+        { "label": "Contact", "url": "/#connect" }
       ],
       "ctaButton": {
         "openNewTab": true,

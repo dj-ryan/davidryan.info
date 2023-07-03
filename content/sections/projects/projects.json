@@ -4,7 +4,7 @@
       "visible": true,
       "category": "Internship",
       "title": "ASSET",
-      "description": "A model validation experiment launched into 0g on the Blue origin New Shepard rocket. Flight event based, multi-device, reactive, control system to preform a precise and repeatable collection of data.",
+      "description": "A model validation experiment launched into 0g on the Blue origin New Shepard rocket. I designed a flight event based, multi-device, reactive, control system to preform a precise and repeatable collection of data.",
       "tags": ["Honeybee", "Aerospace"],
       "image": {
         "src": "../../images/asset_topdown.jpg",
