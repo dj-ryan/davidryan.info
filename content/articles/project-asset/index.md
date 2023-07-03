@@ -4,11 +4,10 @@ description: "Asteroid Sample Strength Evaluation Tool (A.S.S.E.T.)"
 date: "2022-09-10"
 banner:
   src: "../../images/asset_topdown.jpg"
-  alt: "First Markdown Post"
-  caption: 'Top-down view of A.S.S.E.T.'
+  alt: "ASSET Top Down Shot"
+  caption: "Top-down view of A.S.S.E.T."
 categories:
   - "Internship"
-  - "Aerospace"
 keywords:
   - "Honeybee"
   - "NASA"

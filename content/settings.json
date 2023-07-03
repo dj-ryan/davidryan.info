@@ -4,9 +4,9 @@
     "siteUrl": "https://www.davidryan.info",
     "title": "David Ryan personal website",
     "titleTemplate": "%s · Portfolio",
-    "description": "A Portfolio for David Ryan",
+    "description": "A Portfolio website for David Ryan",
     "author": "David Ryan",
-    "avatar": "../content/images/headshot.jpg",
+    "avatar": "../content/images/headshot_circ.jpg",
     "bio": "Passionate about the world where Software and Hardware collide!",
     "social": {
       "github": "https://github.com/dj-ryan",
@@ -40,7 +40,7 @@
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,
-      "useDarkModeBasedOnUsersPreference": true,
+      "useDarkModeBasedOnUsersPreference": false,
       "useCookieBar": false
     }
   }

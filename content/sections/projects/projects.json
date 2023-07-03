@@ -9,40 +9,55 @@
       "image": {
         "src": "../../images/asset_topdown.jpg",
         "alt": "ASSET top down",
-        "linkTo": "../../articles/project-asset/index.md"
+        "linkTo": "/project-asset"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/dj-ryan/13931-ASSET"
         },
         {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://docs.google.com/presentation/d/e/2PACX-1vRULCgDJOzwni5H4-652DSZdN51DntSLhEQ3YLlXVa-r_a_VmcIYDjV96YBgL1y0-X0HxMUrWflo89F/pub?start=false&loop=false&delayms=3000"
         }
       ]
     },
     {
-      "visible": false,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "visible": true,
+      "category": "Internship",
+      "title": "LDC1101 Driver",
+      "description": "A driver for the Texas Instruments LDC1101 inductive sensing chip. This driver was designed to be used in a real time embedded system. It is written in C and uses the TI MSP430 microcontroller.",
+      "tags": ["Virtual Incision", "Embedded"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/ldc1101_chip.png",
+        "alt": "LDC1101",
+        "linkTo": "/ldc1101"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/dj-ryan/ldc1101"
         }
       ]
+    },
+    {
+      "visible": true,
+      "category": "Project",
+      "title": "Balboa Bot",
+      "description": "A ROS based robot that uses computer vision to follow a ball. The robot is built on a Pololu Balboa 32u4 robot chassis. The computer vision is done using OpenCV and the ROS image pipeline.",
+      "tags": ["ROS", "Computer Vision"],
+      "image": {
+        "src": "../../images/balboa_bot.jpg",
+        "alt": "Balboa Bot",
+        "linkTo": "/balboa-bot"
+      }
     }
   ],
   "button": {
     "visible": true,
-    "label": "Visit on Github",
-    "url": "https://github.com/dj-ryan"
+    "type": "link",
+    "label": "More Projects",
+    "url": "/blog",
+    "externalLink": false
   }
 }
