@@ -14,7 +14,7 @@ I used a [Minimal Portfolio Theme](https://github.com/konstantinmuenster/gatsby-
 
 ## Blog Post Template
 
-
+This is the template for the blog posts. It must be placed at the top of every blog post markdown file.
 ```md
 ---
 title: 'This is an exemplary article for the blog.'
@@ -35,4 +35,64 @@ This will be the actual content of the article.
 
 ```
 
+
+## Adding custom sections
+From the theme's package, you can import the Animation and Section component, to build your own sections like.
+
+```js
+import { Section, Animation } from 'gatsby-theme-portfolio-minimal';
+
+export default function IndexPage() {
+    return (
+         <Page>
+            <Animation type="fadeUp">
+                <Section heading="This is a brand new section.">
+                    <p>You can add your custom JSX here.</p>
+                </Section>
+            </Animation>
+        </Page>
+    );
+}
+```
+
+### Section Props
+These are the props you can pass to the Section component.
+```typescript
+interface SectionProps {
+    anchor: string;
+    heading?: string;
+    additionalClasses?: string[];
+    children: React.ReactNode;
+}
+```
+
+### Animation Props
+These are the props you can pass to the Animation component.
+```typescript
+type AnimationTiming = 'linear' | 'ease-in' | 'ease-out' | 'ease-in-out';
+type AnimationFillMode = 'forwards' | 'backwards' | 'both' | 'none';
+type AnimationType =
+    | 'fadeIn'
+    | 'fadeOut'
+    | 'fadeInAndOut'
+    | 'fadeUp'
+    | 'fadeDown'
+    | 'fadeLeft'
+    | 'scaleIn'
+    | 'reduceHeight'
+    | 'waving-hand';
+
+interface AnimationProps {
+    children?: React.ReactNode;
+    type?: AnimationType;
+    timing?: AnimationTiming;
+    fillMode?: AnimationFillMode;
+    delay?: number;
+    duration?: number;
+    iterationCount?: number;
+    className?: string;
+    style?: React.CSSProperties;
+    onAnimationEnd?: () => void;
+}
+```
 
