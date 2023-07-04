@@ -8,7 +8,12 @@ import {
   Page,
   ProjectsSection,
   Seo,
+  Section,
+  Button,
+  ButtonType,
 } from "gatsby-theme-portfolio-minimal";
+// import { Button, ButtonType } from '../../components/Button';
+
 
 export default function IndexPage() {
   return (
@@ -20,6 +25,17 @@ export default function IndexPage() {
         <InterestsSection sectionId="skills" heading="Skills" />
         <ArticlesSection sectionId="articles" heading="Latest Medium Articles" sources={['Medium']} />
         <ProjectsSection sectionId="projects" heading="Projects" />
+        
+
+        
+        <Section>
+        <Button
+                            type='link'
+                            externalLink={true}
+                            url='/blog'
+                            label='test'
+                        />
+        </Section>
         <ContactSection sectionId="connect" heading="Connect with me!" />
       </Page>
     </>
