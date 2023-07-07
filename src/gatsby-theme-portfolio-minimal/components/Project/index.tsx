@@ -4,7 +4,7 @@ import { Animation } from "gatsby-theme-portfolio-minimal";
 import { useMediaQuery } from "gatsby-theme-portfolio-minimal";
 import { Icon } from "gatsby-theme-portfolio-minimal";
 import { ImageObject } from "gatsby-theme-portfolio-minimal";
-import * as classes from "gatsby-theme-portfolio-minimal";
+// import * as classes from "gatsby-theme-portfolio-minimal";
 
 // import { Animation } from '../Animation';
 // import { useMediaQuery } from '../../hooks/useMediaQuery';
