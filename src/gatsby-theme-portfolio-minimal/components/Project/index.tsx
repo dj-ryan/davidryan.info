@@ -4,7 +4,13 @@ import { Animation } from "gatsby-theme-portfolio-minimal";
 import { useMediaQuery } from "gatsby-theme-portfolio-minimal";
 import { Icon } from "gatsby-theme-portfolio-minimal";
 import { ImageObject } from "gatsby-theme-portfolio-minimal";
-// import * as classes from "gatsby-theme-portfolio-minimal";
+
+//import styles from '@kabartolo/gatsby-theme-chicago-docs/src/components/Alert/alert.module.scss';
+
+// import * as classes from "@gatsby-theme-portfolio-minimal/src/components/Project/style.module.css";
+
+// @ts-ignore  
+import * as classes from "./style.module.css";
 
 // import { Animation } from '../Animation';
 // import { useMediaQuery } from '../../hooks/useMediaQuery';
